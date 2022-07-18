@@ -1,0 +1,203 @@
+body{
+  background-color: black;
+}
+
+#slider1 .owl-nav, #slider1 .owl-dots {
+  margin-top: 5px;
+  text-align: center;
+}
+#slider1 .owl-dot {
+  display: inline-block;
+ 
+  margin: 0 5px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: white !important;
+}
+#slider1 .owl-dot.active {
+  background-color: #e29613 !important;
+}
+
+/*--------------------------------------------------------------------
+  #styling the navbar
+  ----------------------------------------------------------------------*/
+#header-navbar {
+  background-color: black;
+}
+#header-navbar a {
+  color: #fea200;
+}
+#header-navbar a:hover {
+  color: white;
+}
+#homeslider {
+  transform: translateY(-150px);
+  word-spacing: 5px;
+  letter-spacing: 3px;
+}
+/*--------------------------------------------------------------------
+  #styling the about section
+  ----------------------------------------------------------------------*/
+#about {
+  background-color: black;
+  height: 500px;
+  margin: 0;
+}
+.about-img {
+  /*this is the zoom effect in css */
+  transition: all ease-in-out 0.4s;
+  overflow: hidden;
+}
+
+.about-img:hover {
+  /*increase in size by 10% */
+  transform: scale(1.1);
+}
+
+/*--------------------------------------------------------------------
+  #styling the rooms section
+  ----------------------------------------------------------------------*/
+#rooms {
+ 
+  height: 300px;
+  margin: 0;
+}
+.roms-content {
+  text-align: center;
+}
+/*--------------------------------------------------------------------
+  #styling the food section
+  ----------------------------------------------------------------------*/
+.food-italic {
+  font-style: italic;
+  font-weight: bold;
+}
+.food-text {
+  text-align: center;
+  color: white;
+}
+#food {
+  height: 300px;
+}
+
+#footing {
+  color: white;
+
+  text-align: center;
+}
+#links {
+ 
+  border-top: 1px;
+}
+/*--------------------------------------------------------------
+# Menu Section
+--------------------------------------------------------------*/
+
+#menu-f li {
+  display: inline-block;
+  padding: 8px 12px 10px 12px;
+  font-size: 16px;
+}
+
+.menu .menu-item {
+  margin-top: 50px;
+}
+
+.menu .menu-img {
+  width: 70px;
+  border-radius: 50%;
+  float: left;
+}
+
+.menu .menu-content {
+  margin-left: 85px;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.menu .menu-content::after {
+  content: "......................................................................"
+    "......................................................................";
+  position: absolute;
+  left: 20px;
+  right: 0;
+  top: -4px;
+  z-index: 1;
+  color: #bab3a6;
+  font-family: Arial;
+}
+
+.menu .menu-content a {
+  padding-right: 10px;
+  background: #1a1814;
+  position: relative;
+  z-index: 10;
+  font-weight: 700;
+  color: white;
+  transition: 0.3s;
+}
+
+.menu .menu-content a:hover {
+  color: #cda45e;
+}
+
+.menu .menu-content span {
+  background: #1a1814;
+  position: relative;
+  z-index: 3;
+  padding: 0 10px;
+  font-weight: 600;
+  color: #cda45e;
+}
+
+.menu .menu-ingredients {
+  margin-left: 85px;
+  font-style: italic;
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  color: rgba(255, 255, 255, 0.5);
+}
+.bar-head {
+  font-family: algerian;
+}
+.booking-table {
+  background-color: black;
+}
+.booking-header {
+  text-align: center;
+}
+.booking-submit {
+  text-align: center;
+}
+/*-----------------------------------------------------------------------------
+#rooms  and suites styling
+-------------------------------------------------------------------------------*/
+#rooms-bg {
+  width: auto;
+  height: 800px;
+}
+
+/*.............................................................................
+#admin stye
+.........................................................................*/
+#rooms-slider .owl-nav, #rooms-slider .owl-dots {
+  margin-top: 5px;
+  text-align: center;
+}
+#rooms-slider .owl-dot {
+  display: inline-block;
+ 
+  margin: 0 5px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: white !important;
+}
+#rooms-slider .owl-dot.active {
+  background-color: #cda45e !important;
+}
+
+
